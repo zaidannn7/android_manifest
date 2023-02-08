@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="amogos"
+        fetch="https://github.com/AmogOS-Rom"
+        revision="thirteen" />
+
+    <remove-project name="LMODroid/platform_frameworks_base" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="amogos" >
+
+    <remove-project name="LMODroid/platform_vendor_lmodroid" />
+    <project path="vendor/lmodroid" name="android_vendor_lmodroid" remote="amogos" >
+
+    <remove-project name="LMODroid/platform_build_soong" />
+    <project path="build/soong" name="android_build_soong" remote="amogos" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+
+    <remove-project name="LMODroid/platform_packages_apps_Settings" />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="amogos" >
+
+    <remove-project name="LMODroid/platform_build" />
+    <project path="build/make" name="android_build" remote="amogos">
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
+</manifest>

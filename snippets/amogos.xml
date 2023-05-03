@@ -33,4 +33,8 @@
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
     </project>
+
+    <!-- SELinux -->
+    <remove-project name="LMODroid/platform_device_lmodroid_sepolicy" />
+    <project path="device/lmodroid/sepolicy" name="android_device_lmodroid_sepolicy" remote="amogos" />
 </manifest>

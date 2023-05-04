@@ -40,4 +40,13 @@
     <!-- SELinux -->
     <remove-project name="LMODroid/platform_device_lmodroid_sepolicy" />
     <project path="device/lmodroid/sepolicy" name="android_device_lmodroid_sepolicy" remote="amogos" />
+
+    <!-- Recovery -->
+    <remove-project name="LMODroid/platform_bootable_recovery" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="amogos" />
+
+    <!-- SetupWizard -->
+    <remove-project name="LMODroid/platform_packages_apps_SetupWizard" />
+    <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="amogos" />
+
 </manifest>

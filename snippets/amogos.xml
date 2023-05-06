@@ -4,9 +4,11 @@
     <remote name="amogos"
         fetch="https://github.com/AmogOS-Rom"
         revision="thirteen" />
-   <remote name="github"
+    <remote name="github"
         fetch="https://github.com"
         revision="thirteen" />
+    <remote name="gitlab"
+        fetch="https://gitlab.com" />
 
     <!-- build -->
     <remove-project name="LMODroid/platform_build" />
@@ -50,4 +52,8 @@
     <!-- vendor -->
     <remove-project name="LMODroid/platform_vendor_lmodroid" />
     <project path="vendor/lmodroid" name="android_vendor_lmodroid" remote="amogos" />
+    <!-- MindTheGapps -->
+    <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="tau" />
+    <!-- MicroG -->
+    <project name="lineageos4microg/android_vendor_partner_gms" path="vendor/partner_gms" remote="github" revision="master" />
 </manifest>

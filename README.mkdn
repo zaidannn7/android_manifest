@@ -15,3 +15,11 @@ Then to sync up:
 ```
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
+Credits
+===========
+
+- LmoDroid
+- LeafOS
+- Radek Błędowski
+- Игорь Ч (Igor121)
+

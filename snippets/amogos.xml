@@ -55,5 +55,5 @@
     <!-- MindTheGapps -->
     <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="tau" />
     <!-- MicroG -->
-    <project name="lineageos4microg/android_vendor_partner_gms" path="vendor/partner_gms" remote="github" revision="master" />
+    <project name="android_vendor_partner_gms" path="vendor/partner_gms" remote="amogos" revision="master" />
 </manifest>

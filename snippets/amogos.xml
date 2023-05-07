@@ -56,4 +56,7 @@
     <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="tau" />
     <!-- MicroG -->
     <project name="android_vendor_partner_gms" path="vendor/partner_gms" remote="amogos" revision="master" />
+    <!-- Updater -->
+    <remove-project name="LMODroid/platform_packages_apps_Updater" />
+    <project name="android_packages_apps_Updater" path="packages_apps_Updater" remote="amogos" />
 </manifest>

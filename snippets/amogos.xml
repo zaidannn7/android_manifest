@@ -59,4 +59,5 @@
     <!-- Updater -->
     <remove-project name="LMODroid/platform_packages_apps_Updater" />
     <project name="android_packages_apps_Updater" path="packages_apps_Updater" remote="amogos" />
+    <project name="ota_config" path="vendor/ota_config" remote="amogos" />
 </manifest>

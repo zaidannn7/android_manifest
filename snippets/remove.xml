@@ -50,6 +50,7 @@
     <remove-project name="platform/external/avb" />
     <remove-project name="platform/external/chromium-webview" />
     <remove-project name="platform/external/cldr" />
+    <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/e2fsprogs" />
     <remove-project name="platform/external/exfatprogs" />
     <remove-project name="platform/external/gptfdisk" />
@@ -78,6 +79,7 @@
     <remove-project name="platform/hardware/google/pixel-sepolicy" />
     <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/libhardware" />
+    <remove-project name="platform/hardware/libhardware_legacy" />
     <remove-project name="platform/hardware/qcom/audio" />
     <remove-project name="platform/hardware/qcom/camera" />
     <remove-project name="platform/hardware/qcom/display" />

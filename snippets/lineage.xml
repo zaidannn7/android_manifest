@@ -57,7 +57,7 @@
     <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-20.0-caf-msm8996" remote="lineage" />
     <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-20.0-caf-msm8998" remote="lineage" />
     <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" groups="qcom,sdm660" revision="lineage-20.0-caf-sdm660" remote="lineage" />
-    <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" groups="qcom,sdm660" revision="lineage-20.0-caf-sdm660" remote="lineage" />
+    <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-20.0-caf-sdm660" remote="lineage" />
     <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" groups="qcom,sdm660" revision="lineage-20.0-caf-sdm660" remote="lineage" />
     <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-20.0-caf-msm8998" remote="lineage" />
     <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-20.0-caf-msm8998" remote="lineage" />
@@ -100,13 +100,13 @@
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" remote="lineage" />
     <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="lineage" />
     <project path="vendor/qcom/opensource/core-utils-sys" name="android_vendor_qcom_opensource_core-utils-sys" groups="qcom,qssi" remote="lineage" />
-    <project path="vendor/qcom/opensource/core-utils-vendor" name="android_vendor_qcom_opensource_core-utils-vendor" groups="qcom,qssi" remote="lineage" />
+    <project path="vendor/qcom/opensource/core-utils-vendor" name="android_vendor_qcom_opensource_core-utils-vendor" groups="qcom,waipio-vendor" remote="lineage" />
     <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" groups="qcom" remote="lineage" />
     <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" remote="lineage" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" remote="lineage" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="lineage-20.0-legacy-um" remote="lineage"  />
     <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom,waipio-vendor" remote="lineage" />
-    <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" groups="qcom,lahaina" remote="lineage" />
+    <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" groups="qcom,waipio-vendor" remote="lineage" />
     <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="lineage" />
     <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="lineage" />
     <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,waipio-vendor" remote="lineage" />
@@ -138,6 +138,7 @@
     <project path="external/chromium-webview/prebuilt/x86" name="android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" remote="lineage" />
     <project path="external/chromium-webview/prebuilt/x86_64" name="android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" remote="lineage" />
     <project path="external/cldr" name="android_external_cldr" groups="pdk" remote="lineage" />
+    <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="lineage" />
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="lineage" />
     <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
     <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="lineage" />
@@ -170,6 +171,7 @@
     <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
     <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="lineage" />
     <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="lineage" />
+    <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
     <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" />
     <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
     <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
@@ -241,6 +243,7 @@
   
     <!-- Tools -->
     <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
+    <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" />
 
     <!-- System -->
     <project path="system/apex" name="android_system_apex" groups="pdk" remote="lineage" />

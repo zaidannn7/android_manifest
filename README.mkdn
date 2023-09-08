@@ -17,7 +17,7 @@ Then to sync up:
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
-Before building you can set environment variables to include gapps or microg.
+Before building you can set environment variables to include gapps or microg and set the maintainer.
 ```bash
 # include gapps in the build
 export GAPPS=true
@@ -27,6 +27,9 @@ export GAPPS=false
 
 # unset env variables for vanilla, if previously set
 unset GAPPS
+
+# maintainer flag, replace $yourName with your name
+export AMOGOS_MAINTAINER=$yourName
 ```
 
 To start the build you should run the following commands.

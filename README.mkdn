@@ -37,7 +37,7 @@ To start the build you should run the following commands.
 source build/envsetup.sh
 
 # replace $codename with the actual codename of your device
-lunch lmo_$codename-userdebug
+lunch lmodroid_$codename-userdebug
 
 m bacon
 ```

@@ -10,23 +10,6 @@
     <remote name="gitlab"
         fetch="https://gitlab.com" />
 
-    <!-- build -->
-    <remove-project name="LMODroid/platform_build" />
-    <project path="build/make" name="android_build" remote="amogos">
-        <copyfile src="core/root.mk" dest="Makefile" />
-        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-        <linkfile src="core" dest="build/core" />
-        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-        <linkfile src="target" dest="build/target" />
-        <linkfile src="tools" dest="build/tools" />
-    </project>
-    <remove-project name="LMODroid/platform_build_soong" />
-    <project path="build/soong" name="android_build_soong" remote="amogos" >
-        <linkfile src="root.bp" dest="Android.bp" />
-        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-    </project>
-
     <!-- frameworks -->
     <remove-project name="LMODroid/platform_frameworks_base" />
     <project path="frameworks/base" name="android_frameworks_base" remote="amogos" />

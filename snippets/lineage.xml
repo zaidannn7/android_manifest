@@ -266,5 +266,7 @@
     <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="lineage" />
     <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="lineage" />
     <project path="system/vold" name="android_system_vold" groups="pdk" remote="lineage" />
+    <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="lineage" />
+
 
 </manifest>

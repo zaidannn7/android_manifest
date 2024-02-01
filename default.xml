@@ -1266,6 +1266,7 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/lmodroid.xml" />
   <include name="snippets/lineage.xml" />
+  <include name="snippets/amogos.xml" />
   <!-- <include name="snippets/pixel.xml" /> -->
 
 </manifest>

@@ -3,7 +3,7 @@
 
     <remote name="lmodroid"
         fetch="https://git.libremobileos.com"
-        revision="staging/fourteen"
+        revision="fourteen"
         review="gerrit.libremobileos.com" />
 
     <!-- Bootable -->
@@ -37,15 +37,12 @@
     <project path="development" name="LMODroid/platform_development" remote="lmodroid" />
 
     <!-- External -->
-    <project path="external/android-nn-driver" name="LMODroid/platform_external_android-nn-driver" groups="pdk-lassen" remote="lmodroid" />
-    <project path="external/armnn" name="LMODroid/platform_external_armnn" groups="pdk-lassen" remote="lmodroid" />
     <project path="external/avb" name="LMODroid/platform_external_avb" groups="pdk" remote="lmodroid" />
     <project path="external/dtc" name="LMODroid/platform_external_dtc" groups="pdk" remote="lmodroid" />
     <project path="external/e2fsprogs" name="LMODroid/platform_external_e2fsprogs" groups="pdk" remote="lmodroid" />
     <project path="external/exfatprogs" name="LMODroid/platform_external_exfatprogs" remote="lmodroid" />
     <project path="external/gptfdisk" name="LMODroid/platform_external_gptfdisk" groups="pdk" remote="lmodroid" />
     <project path="external/libcxx" name="LMODroid/platform_external_libcxx" groups="pdk" remote="lmodroid" />
-    <project path="external/libncurses" name="LMODroid/platform_external_libncurses" remote="lmodroid" />
     <project path="external/libnl" name="LMODroid/platform_external_libnl" groups="pdk" remote="lmodroid" />
     <project path="external/libvpx" name="LMODroid/platform_external_libvpx" groups="pdk" remote="lmodroid" />
     <project path="external/mksh" name="LMODroid/platform_external_mksh" groups="pdk" remote="lmodroid" />
@@ -102,6 +99,8 @@
     <project path="packages/apps/FlipFlap" name="LMODroid/platform_packages_apps_FlipFlap" remote="lmodroid" />
     <project path="packages/apps/Gallery2" name="LMODroid/platform_packages_apps_Gallery2" remote="lmodroid" />
     <project path="packages/apps/GameSpace" name="LMODroid/platform_packages_apps_GameSpace" remote="lmodroid" />
+    <project path="packages/apps/LMOSettings" name="LMODroid/platform_packages_apps_LMOSettings" remote="lmodroid" />
+    <project path="packages/apps/LMOSystemUI" name="LMODroid/platform_packages_apps_LMOSystemUI" remote="lmodroid" />
     <project path="packages/apps/Launcher3" name="LMODroid/platform_packages_apps_Launcher3" remote="lmodroid" />
     <project path="packages/apps/ManagedProvisioning" name="LMODroid/platform_packages_apps_ManagedProvisioning" remote="lmodroid" />
     <project path="packages/apps/Messaging" name="LMODroid/platform_packages_apps_Messaging" remote="lmodroid" />
@@ -144,7 +143,7 @@
 
     <!-- Prebuilts -->
     <project path="prebuilts/build-tools" name="LMODroid/platform_prebuilts_build-tools" groups="pdk" remote="lmodroid" clone-depth="1" />
-    <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.17" />
+    <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.25" />
     <project path="prebuilts/lmodroid" name="LMODroid/platform_prebuilts_lmodroid" remote="lmodroid" />
 
     <!-- System -->

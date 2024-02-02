@@ -47,6 +47,13 @@
     <remove-project name="LMODroid/platform_prebuilts_lmodroid" />
     <project path="prebuilts/lmodroid" name="android_prebuilts_lmodroid" remote="amogos" />
 
+    <!-- overlay -->
+    <remove-project name="LMODroid/platform_packages_overlays_LMODroid" />
+    <project path="packages/overlays/LMODroid" name="android_packages_overlays_LMODroid" remote="amogos" />
+
+    <!-- fonts -->
+    <project path="external/amog-fonts" name="android_external_amog-fonts" remote="amogos" />
+
     <!-- recovery -->
     <remove-project name="LMODroid/platform_bootable_recovery" />
     <project path="bootable/recovery" name="android_bootable_recovery" remote="amogos" />

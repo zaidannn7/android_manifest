@@ -78,4 +78,8 @@
     <remove-project name="LMODroid/platform_system_core" />
     <project name="android_system_core" path="system/core" remote="amogos" />
 
+    <!-- system/sepolicy -->
+    <remove-project name="LMODroid/platform_system_sepolicy" />
+    <project name="android_system_sepolicy" path="system/sepolicy" remote="amogos" />
+
 </manifest>
